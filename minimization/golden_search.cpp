@@ -20,7 +20,7 @@ void GoldenSearch()
     a = 0;
     b = 1000;
 
-    int pasi = 0;
+    int steps = 0;
     
     
 
@@ -40,7 +40,7 @@ void GoldenSearch()
 
     } while(abs(f(c) - f(d)) > EPSILON);
     
-    cout << "Pasi: " << pasi << "; " << c;
+    cout << "Steps: " << steps << "; " << c;
 }
 
 
