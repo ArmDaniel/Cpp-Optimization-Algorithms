@@ -30,9 +30,9 @@ void estimate_coeff(std::vector<T> indep_var, std::vector<T> dep_var, M &B1, M &
 	}
 
 	std::cout<< "SS_xy : " << SS_xy <<std::endl;
-    std::cout<< "SS_xx : " << SS_xx <<std::endl;
-    std::cout<< "X_mean : " << X_mean <<std::endl;
-    std::cout<< "Y_mean : " << Y_mean <<std::endl;
+    	std::cout<< "SS_xx : " << SS_xx <<std::endl;
+    	std::cout<< "X_mean : " << X_mean <<std::endl;
+    	std::cout<< "Y_mean : " << Y_mean <<std::endl;
     
 	B1 = SS_xy / SS_xx;
 	B0 = Y_mean - B1 * X_mean;
