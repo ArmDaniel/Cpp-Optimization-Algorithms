@@ -25,8 +25,8 @@ int main()
 	std::vector<float> predict;
 	for(int i = 0; i < X.size(); i++)
 		predict.push_back(reg_cls.predict(X[i]));
-  for(int i = 0; i < X.size(); i++)
-    std::cout << predict[i] << std::endl;
+  	for(int i = 0; i < X.size(); i++)
+   		std::cout << predict[i] << std::endl;
 	return 0;
 
 }
