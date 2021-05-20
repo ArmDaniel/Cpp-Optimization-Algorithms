@@ -16,6 +16,10 @@ Setul de date fiind oferit, graficul pretului bitcoin - nr cautari Google arata 
 
 Observam ca setul de date respecta criteriul de mai sus si se afla intr-o relatie liniara.
 
+Acelasi lucru poate fi spus si despre pretul BTC raportat la indicele NASDAQ:
+
+![BTC-NASDAQ](https://github.com/Motanovici/Cpp-Optimization-Algorithms/blob/main/Examples/Bitcoin-Price-Google/img/bitcoinnasdaq.JPG)
+
 ## Mod de implementare
 
 Pentru a putea prezice valoarea unei variabile in functie de evolutia celeilalte, ne vom folosi de metoda regresiei liniare.
