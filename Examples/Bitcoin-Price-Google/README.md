@@ -22,7 +22,7 @@ Acelasi lucru poate fi spus si despre pretul BTC raportat la indicele NASDAQ:
 
 ## Mod de implementare
 
-Pentru a putea prezice valoarea unei variabile in functie de evolutia celeilalte, ne vom folosi de metoda regresiei liniare.
+Pentru a putea prezice valoarea unei variabile ( dependente ) ce depinde in evolutia ei de o alta variabila ( independenta ), ne vom folosi de metoda regresiei liniare.
 
 Programul este alcatuit din 3 fisiere principale:
 
